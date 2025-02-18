@@ -8,10 +8,10 @@ namespace CoffeeShopConsoleAppNet60
 {
     internal abstract class Coffee
     {
-        protected Coffee(int discount)
-        {
-            Discount = discount;
-        }
+        //protected Coffee(int discount)
+        //{
+        //    Discount = discount;
+        //}
 
         public int Discount { get; set; }
 

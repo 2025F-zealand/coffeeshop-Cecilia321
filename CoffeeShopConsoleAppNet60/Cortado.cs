@@ -8,9 +8,9 @@ namespace CoffeeShopConsoleAppNet60
 {
     internal class Cortado : Coffee , IMilk
     {
-        public Cortado(int discount) : base(discount)
-        {
-        }
+        //public Cortado(int discount) : base(discount)
+        //{
+        //}
 
         public int MlMilk()
         {
