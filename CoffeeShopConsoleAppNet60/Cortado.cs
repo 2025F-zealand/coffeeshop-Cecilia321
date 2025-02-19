@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopConsoleAppNet60
 {
-    internal class Cortado : Coffee , IMilk
+    public class Cortado : Coffee , IMilk
     {
         //public Cortado(int discount) : base(discount)
         //{

@@ -3,7 +3,7 @@ using CoffeeShopConsoleAppNet60;
 
 Console.WriteLine("Hello, World!");
 
-Latte l = new Latte();
+Latte l = new Latte(4);
 Cortado c = new Cortado();
 BlackCoffee b = new BlackCoffee();
 //Console.WriteLine(l.Price() + l.Strength() + l.MlMilk());
